@@ -1,0 +1,17 @@
+= emf-rs
+
+Rust workspace for the EMF/EMF+/WMF metafile parser — the native core
+for the https://github.com/claricle/emf[emf] gem, mirroring the
+https://github.com/parsanol/parsanol-rs[parsanol rust/ruby pair] structure.
+
+== Crates
+
+* `emf-core` — the record parser and typed record model
+* `emf-ffi` — C ABI surface for the emf gem's binding
+
+== Plan
+
+claricle/emf#15 tracks the port: parity with the Ruby parser across
+the fixture corpus, the corrupted-resilience fixtures as fuzz target,
+and precompiled platform gems vendored for the emf gem (leptris-style
+shipping model).

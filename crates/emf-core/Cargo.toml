@@ -1,0 +1,12 @@
+[package]
+name = "emf-core"
+description = "EMF/EMF+/WMF metafile record parser (typed record model)"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+byteorder = { workspace = true }
+thiserror = { workspace = true }
