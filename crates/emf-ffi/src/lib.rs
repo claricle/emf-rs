@@ -1,4 +1,4 @@
-//! C ABI surface over emf-core for the emf gem's FFI binding
+//! C ABI surface over emf for the emf gem's FFI binding
 //! (leptris/parsanol-ffi style: opaque handles + buffer protocol;
 //! UTF-8 on both faces).
 

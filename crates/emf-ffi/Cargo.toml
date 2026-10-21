@@ -1,6 +1,6 @@
 [package]
 name = "emf-ffi"
-description = "C ABI surface for emf-core (FFI consumers: emf gem bindings)"
+description = "C ABI surface for emf (FFI consumers: emf gem bindings)"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
@@ -11,4 +11,4 @@ repository.workspace = true
 crate-type = ["cdylib", "staticlib"]
 
 [dependencies]
-emf-core = { path = "../emf-core" }
+emf = { path = "../emf" }

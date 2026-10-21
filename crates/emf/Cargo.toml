@@ -1,5 +1,5 @@
 [package]
-name = "emf-core"
+name = "emf"
 description = "EMF/EMF+/WMF metafile record parser (typed record model)"
 version.workspace = true
 edition.workspace = true
